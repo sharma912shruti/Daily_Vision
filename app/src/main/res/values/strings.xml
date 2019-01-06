@@ -1,3 +1,8 @@
 <resources>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="app_name">DailyVision</string>
+    <string name="have_a_look_on_your_daily_updates_with_us">Have a look on daily updates</string>
+    <string name="logout">Logout</string>
+    <string name="home_screen">Home Screen</string>
 </resources>

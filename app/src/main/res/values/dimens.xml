@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="basic_view_margin">8dp</dimen>
+    <dimen name="small_view_margin">4dp</dimen>
+    <dimen name="large_view_margin">12dp</dimen>
+    <dimen name="tab_list_item_width">30dp</dimen>
+    <dimen name="medium_view_margin">20dp</dimen>
+
+    <!--font sizes-->
+    <dimen name="font_xsmall">11sp</dimen>
+    <dimen name="font_small">12sp</dimen>
+    <dimen name="font_medium">13sp</dimen>
+    <dimen name="font_semi_large">18sp</dimen>
+    <dimen name="font_large">16sp</dimen>
+    <dimen name="font_xlarge">20sp</dimen>
+    <dimen name="font_xxlarge">24sp</dimen>
+
+    <dimen name="view_large_margin">16dp</dimen>
+    <dimen name="popup_bottom_padding">40dp</dimen>
+    <dimen name="popup_margin">38dp</dimen>
+    <dimen name="popup_left_padding">-16dp</dimen>
+    <dimen name="popup_last_margin">-14dp</dimen>
+    <dimen name="small_margin">2dp</dimen>
+    <dimen name="settings_screen_padding">30dp</dimen>
+    <dimen name="xlarge_view_margin">20dp</dimen>
+    <dimen name="buttonPadding">10dp</dimen>
+    <dimen name="buttonLeftRightPadding">230dp</dimen>
+    <dimen name="standard_margin">20dp</dimen>
+    <dimen name="circular_image_diameter">40dp</dimen>
+
+    <dimen name="number_picker_height">90dp</dimen>
+    <dimen name="blue_strip_height">35dp</dimen>
+    <dimen name="circle_size">20sp</dimen>
+    <dimen name="user_profile_diameter">100dp</dimen>
+    <dimen name="itemPadding">3dp</dimen>
+    <dimen name="user_profile_birthday_width">200dp</dimen>
+    <dimen name="password_width">250dp</dimen>
+    <dimen name="speed_item_padding">5dp</dimen>
+    <dimen name="number_picker_height_scales_screen">180dp</dimen>
+    <dimen name="number_picker_height_notes">140dp</dimen>
+    <dimen name="onboarding_distance">70dp</dimen>
+    <dimen name="onbording_circle_size">100dp</dimen>
+    <dimen name="bt_status_text_width">50dp</dimen>
+    <dimen name="octave_circle">20dp</dimen>
+    <dimen name="horizontal_string_background">40dp</dimen>
+    <dimen name="palm_size">30dp</dimen>
+    <dimen name="login_text_view_height">120dp</dimen>
+    <dimen name="zero_layout">50dp</dimen>
+    <dimen name="vertical_number_picker_height">50dp</dimen>
+    <dimen name="vertical_number_picker_width">200dp</dimen>
+    <dimen name="x_padding">10dp</dimen>
+    <dimen name="home_text_size">50sp</dimen>
+    <dimen name="border_text_size">70sp</dimen>
+    <dimen name="border_text_height">70dp</dimen>
+    <dimen name="margin_for_right_border">45dp</dimen>
+    <dimen name="margin_for_right_main">65dp</dimen>
+    <dimen name="margin_left">35dp</dimen>
+    <dimen name="string_padding">26dp</dimen>
+    <dimen name="social_button_size">170dp</dimen>
+    <dimen name="song_center_rect">25dp</dimen>
+    <dimen name="view_item_width">20dp</dimen>
+    <dimen name="song_center_view_width">25dp</dimen>
+    <dimen name="new_font_for_home_text">15dp</dimen>
+    <dimen name="font_between_large_and_x">18dp</dimen>
+    <item name="visible" type="id" />
+    <item name="masked" type="id" />
+
+</resources>

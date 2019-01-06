@@ -7,7 +7,19 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:id="@+id/logo"
         android:layout_centerInParent="true"
         android:src="@drawable/task_complete_splash_icon"/>
 
+    <com.dailyvision.custom_views.GothamTextViewBook
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/basic_view_margin"
+        android:textColor="@color/white"
+        android:textStyle="italic"
+        android:id="@+id/tag_line"
+        android:textSize="@dimen/font_large"
+        android:text="@string/have_a_look_on_your_daily_updates_with_us"/>
 </RelativeLayout>
