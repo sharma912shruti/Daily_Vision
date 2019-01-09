@@ -1,8 +1,8 @@
 package com.dailyvision.activity;
 
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.support.v4.widget.DrawerLayout;
-import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 
 import com.dailyvision.R;
@@ -41,17 +41,17 @@ public class HomeActivity extends BaseActivity {
         }
     }
 
+    @SuppressLint("RestrictedApi")
     private void setToolBar(String string, Toolbar mToolbar){
-        setSupportActionBar(this.mToolbar);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setDisplayShowHomeEnabled(true);
-        setHeader(getResources().getString(R.string.home_screen), mToolbar);
+        setSupportActionBar(mToolbar);
+//        setHeader(getResources().getString(R.string.home_screen), mToolbar);
     }
 
-//    @OnClick(R.id.btn_menu)
-//    void toggleMenu() {
-//        mNavigationDrawerManager.toggleMenu();
-//    }
+    @OnClick(R.id.menu_icon)
+    void toggleMenu() {
+        mNavigationDrawerManager.toggleMenu();
+    }
+
 
     private void setupNavigationDrawer(DrawerLayout drawer) {
         mNavigationDrawerManager = new NavigationDrawerManager(this, drawer);

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@color/colorAccent"
+    app:contentInsetLeft="0dp"
+    app:contentInsetStart="0dp"
+    app:contentInsetStartWithNavigation="0dp"
+    app:layout_collapseMode="parallax"
+    app:layout_scrollFlags="scroll|enterAlways"
+    app:popupTheme="@style/AppTheme.PopupOverlay">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/menu_icon"
+            style="@style/Widget.AppCompat.Light.ActionButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:backgroundTint="@color/transparent"
+            android:src="@drawable/ic_menu_white" />
+
+        <com.dailyvision.custom_views.GothamTextViewMedium
+            android:layout_width="match_parent"
+            android:layout_toRightOf="@+id/menu_icon"
+            android:layout_height="match_parent"
+            android:text="Home Screen"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/font_large"
+            android:textColor="@color/white"/>
+        <!--<com.homelive.view.SegmentedButton-->
+            <!--android:id="@+id/segmented"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_centerInParent="true"-->
+            <!--android:gravity="center"-->
+            <!--app:btnPaddingBottom="@dimen/small_view_margin"-->
+            <!--app:btnPaddingTop="@dimen/small_view_margin"-->
+            <!--app:btnText1="@string/rent"-->
+            <!--app:btnText2="@string/buy"-->
+            <!--app:btnTextColor="@color/blue_white_text_color_selector"-->
+            <!--app:btnTextSize="@dimen/font_medium"-->
+            <!--app:cornerRadius="8dp"-->
+            <!--app:elevation="8dp"-->
+            <!--app:gradientColorOffEnd="@color/blue"-->
+            <!--app:gradientColorOffStart="@color/blue"-->
+            <!--app:gradientColorOnEnd="@color/transparent"-->
+            <!--app:gradientColorOnStart="@color/transparent"-->
+            <!--app:gradientColorSelectedEnd="@color/transparent"-->
+            <!--app:gradientColorSelectedStart="@color/transparent"-->
+            <!--app:strokeColor="@color/blue"-->
+            <!--app:strokeWidth="3dp" />-->
+
+        <!--<ImageButton-->
+            <!--android:id="@+id/btn_menu"-->
+            <!--style="@style/Widget.AppCompat.Light.ActionButton"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:backgroundTint="@color/transparent"-->
+            <!--android:src="@drawable/more_icon" />-->
+
+    </RelativeLayout>
+</android.support.v7.widget.Toolbar>
+

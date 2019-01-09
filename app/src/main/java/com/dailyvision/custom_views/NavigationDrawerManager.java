@@ -44,18 +44,18 @@ public class NavigationDrawerManager {
         toggle.setToolbarNavigationClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if (drawer.isDrawerOpen(Gravity.RIGHT)) {
-                    drawer.closeDrawer(Gravity.RIGHT);
+                if (drawer.isDrawerOpen(Gravity.LEFT)) {
+                    drawer.closeDrawer(Gravity.LEFT);
                 } else {
-                    drawer.openDrawer(Gravity.RIGHT);
+                    drawer.openDrawer(Gravity.LEFT);
                 }
             }
         });
     }
 
     public boolean onBackPressed() {
-        if (mDrawer.isDrawerOpen(Gravity.RIGHT)) {
-            mDrawer.closeDrawer(Gravity.RIGHT);
+        if (mDrawer.isDrawerOpen(Gravity.LEFT)) {
+            mDrawer.closeDrawer(Gravity.LEFT);
             return true;
         } else {
             return false;
@@ -63,10 +63,10 @@ public class NavigationDrawerManager {
     }
 
     public void toggleMenu() {
-        if (mDrawer.isDrawerOpen(Gravity.RIGHT)) {
-            mDrawer.closeDrawer(Gravity.RIGHT);
+        if (mDrawer.isDrawerOpen(Gravity.LEFT)) {
+            mDrawer.closeDrawer(Gravity.LEFT);
         } else {
-            mDrawer.openDrawer(Gravity.RIGHT);
+            mDrawer.openDrawer(Gravity.LEFT);
         }
     }
 
