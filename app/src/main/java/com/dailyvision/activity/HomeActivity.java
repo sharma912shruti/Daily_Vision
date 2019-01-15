@@ -1,9 +1,11 @@
 package com.dailyvision.activity;
 
 import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.widget.Toolbar;
+import android.widget.TextView;
 
 import com.dailyvision.R;
 import com.dailyvision.custom_views.NavigationDrawerManager;
@@ -23,6 +25,9 @@ public class HomeActivity extends BaseActivity {
     @BindView(R.id.toolbar)
     Toolbar mToolbar;
 
+    @BindView(R.id.button)
+    TextView mButton;
+
     private NavigationDrawerManager mNavigationDrawerManager;
 
     @Override
@@ -39,6 +44,11 @@ public class HomeActivity extends BaseActivity {
         if (!mNavigationDrawerManager.onBackPressed()) {
             super.onBackPressed();
         }
+    }
+
+    @OnClick(R.id.button)
+    void onHelloClick(){
+        startActivity(new Intent(this,MapsActivity.class));
     }
 
     @SuppressLint("RestrictedApi")
