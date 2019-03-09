@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "27142927727",
+    "firebase_url": "https://dailyvision-eb1ba.firebaseio.com",
+    "project_id": "dailyvision-eb1ba",
+    "storage_bucket": "dailyvision-eb1ba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:27142927727:android:1a608385e0805265",
+        "android_client_info": {
+          "package_name": "com.dailyvision"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "27142927727-dhe3tdhg3puf6fn46dn61gvrm22igr73.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dailyvision",
+            "certificate_hash": "25ba32d19eb9b35fbdc00c66e2142da1c6977d12"
+          }
+        },
+        {
+          "client_id": "27142927727-id079tq0gqleg4bscqaaqn9nico2id3f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcGiv5evfK1N7QIk4IZ3EQRBFeCdsUFsE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "27142927727-id079tq0gqleg4bscqaaqn9nico2id3f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
